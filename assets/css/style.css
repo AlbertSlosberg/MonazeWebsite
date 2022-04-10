@@ -783,6 +783,15 @@ section {
   }
 }
 
+#about span{
+	font-weight: 400;
+	font-family: forma-djr-display, sans-serif;
+	font-style:italic;
+	letter-spacing: 3pt;
+	font-size: 14pt
+	
+}
+
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
@@ -904,15 +913,15 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Specials
+# Team
 --------------------------------------------------------------*/
-.specials {
+.team {
   overflow: hidden;
 }
-.specials .nav-tabs {
+.team .nav-tabs {
   border: 0;
 }
-.specials .nav-link {
+.team .nav-link {
   border: 0;
   padding: 12px 15px;
   transition: 0.3s;
@@ -922,35 +931,35 @@ section {
   font-weight: 600;
   font-size: 15px;
 }
-.specials .nav-link:hover {
+.team .nav-link:hover {
   color: #cda45e;
 }
-.specials .nav-link.active {
+.team .nav-link.active {
   color: #1a1814;
   background: #cda45e;
   border-color: #cda45e;
 }
-.specials .nav-link:hover {
+.team .nav-link:hover {
   border-color: #cda45e;
 }
-.specials .tab-pane.active {
+.team .tab-pane.active {
   -webkit-animation: fadeIn 0.5s ease-out;
   animation: fadeIn 0.5s ease-out;
 }
-.specials .details h3 {
+.team .details h3 {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
   color: #fff;
 }
-.specials .details p {
+.team .details p {
   color: #aaaaaa;
 }
-.specials .details p:last-child {
+.team .details p:last-child {
   margin-bottom: 0;
 }
 @media (max-width: 992px) {
-  .specials .nav-link {
+  .team .nav-link {
     border: 0;
     padding: 15px;
   }
@@ -959,12 +968,12 @@ section {
 /*--------------------------------------------------------------
 # Events
 --------------------------------------------------------------*/
-.events {
+.collection {
   background: url(../img/events-bg.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
-.events::before {
+.collection::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
@@ -973,64 +982,64 @@ section {
   left: 0;
   bottom: 0;
 }
-.events .section-title h2 {
+.collection .section-title h2 {
   color: #fff;
 }
-.events .container {
+.collection .container {
   position: relative;
 }
 @media (min-width: 1024px) {
-  .events {
+  .collection {
     background-attachment: fixed;
   }
 }
-.events .events-carousel {
+.collection .events-carousel {
   background: rgba(255, 255, 255, 0.08);
   padding: 30px;
 }
-.events .event-item {
+.collection .event-item {
   color: #fff;
 }
-.events .event-item h3 {
+.collection .event-item h3 {
   font-weight: 600;
   font-size: 26px;
   color: #cda45e;
 }
-.events .event-item .price {
+.collection .event-item .price {
   font-size: 26px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   margin-bottom: 15px;
 }
-.events .event-item .price span {
+.collection .event-item .price span {
   border-bottom: 2px solid #cda45e;
 }
-.events .event-item ul {
+.collection .event-item ul {
   list-style: none;
   padding: 0;
 }
-.events .event-item ul li {
+.collection .event-item ul li {
   padding-bottom: 10px;
 }
-.events .event-item ul i {
+.collection .event-item ul i {
   font-size: 20px;
   padding-right: 4px;
   color: #cda45e;
 }
-.events .event-item p:last-child {
+.collection .event-item p:last-child {
   margin-bottom: 0;
 }
-.events .swiper-pagination {
+.collection .swiper-pagination {
   margin-top: 30px;
   position: relative;
 }
-.events .swiper-pagination .swiper-pagination-bullet {
+.collection .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: rgba(255, 255, 255, 0.4);
   opacity: 1;
 }
-.events .swiper-pagination .swiper-pagination-bullet-active {
+.collection .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #cda45e;
 }
 
@@ -1170,7 +1179,6 @@ section {
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
   background: #26231d;
-  position: relative;
   border-radius: 6px;
   position: relative;
   z-index: 1;
@@ -1522,7 +1530,6 @@ section {
   right: -1px;
   bottom: -1px;
   border: 0;
-  background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
   background: #cda45e;
