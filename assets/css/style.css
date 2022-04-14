@@ -432,7 +432,7 @@ h2{
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/monaze img/1.bg main.png") top center;
+  background: url("../img/monaze-img/1.bg main.png") top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -710,7 +710,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/monaze img/2.png") center center;
+  background: url("../img/monaze-img/2.png") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
@@ -979,7 +979,6 @@ section {
 # Events
 --------------------------------------------------------------*/
 .collection {
-  background: url(../img/events-bg.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
