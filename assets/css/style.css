@@ -11,6 +11,10 @@ font-style: normal;
 
 font-family: forma-djr-display, sans-serif;
 font-weight: 400;
+font-style: normal;
+
+font-family: desire-pro,serif;
+font-weight: 400;
 font-style: normal;*/
 
 /* Color Palette
@@ -27,7 +31,10 @@ Brick: A14016
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: forma-djr-display, sans-serif;
+font-weight: 400;
+font-style: normal;
+	letter-spacing:3px ;
   background: #0c0b09;
   color: #fff;
 }
@@ -43,7 +50,8 @@ a:hover {
 }
 
 h1, h3, h4, h5, h6 {
-  font-family: "Playfair Display", serif;
+  font-family: desire-pro,serif;
+font-style: normal;
 }
 
 h2{
